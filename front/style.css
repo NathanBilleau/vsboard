@@ -1,3 +1,50 @@
-h1 {
+body {
+  background: #0A0F18;
+}
 
+h1 {
+  font-size: 7vw;
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form > * {
+  margin: 0 5px;
+}
+
+input {
+  font-size: 1.1em;
+  background: #3D4A5B;
+  font-family: "Montserrat";
+  padding: 15px 20px;
+  text-align: center;
+  color: #757F8C;
+  font-weight: 400;
+  border: none;
+  border-radius: 50px;
+}
+
+button {
+  border-radius: 50px;
+  background: #C22C38 ;
+  color: #fff;
+  font-size: 1.1em;
+  border: none;
+  font-family: "Montserrat";
+  padding: 15px;
+  /* text-transform: uppercase; */
+  cursor: pointer;
+  transition: .15s;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
