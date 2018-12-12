@@ -1,11 +1,12 @@
+@import 'montserrat/stylesheet.css';
+
 body {
   background: #0A0F18;
 }
 
 h1 {
   font-size: 7vw;
-  font-family: "Montserrat";
-  font-weight: 900;
+  font-family: "montserratextrabold";
   text-align: center;
   color: #fff;
 }
@@ -23,11 +24,10 @@ h1 {
 input {
   font-size: 1.1em;
   background: #3D4A5B;
-  font-family: "Montserrat";
+  font-family: "montserratlight";
   padding: 15px 20px;
   text-align: center;
   color: #757F8C;
-  font-weight: 400;
   border: none;
   border-radius: 50px;
 }
@@ -38,7 +38,7 @@ button {
   color: #fff;
   font-size: 1.1em;
   border: none;
-  font-family: "Montserrat";
+  font-family: "montserratlight";
   padding: 15px;
   /* text-transform: uppercase; */
   cursor: pointer;
