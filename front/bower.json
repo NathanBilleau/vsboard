@@ -1,0 +1,20 @@
+{
+  "name": "front",
+  "homepage": "https://github.com/nathanbilleau/vsboard",
+  "authors": [
+    "Nathan Billeau <nbilleau@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
