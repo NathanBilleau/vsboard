@@ -37,6 +37,11 @@ void setup() {
 
 }
 
+// pendant les horaires d'ouverture
+char arbitre = ;
+// en dehors des horaires d'ouverture
+char entraineur = ;
+
 void loop() {
   char car;
   
