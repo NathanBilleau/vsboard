@@ -37,7 +37,7 @@ void setup() {
 
 }
 
-// pendant les horaires d'ouverture
+// pendant les horaires d'ouverturew
 char arbitre = ;
 // en dehors des horaires d'ouverture
 char entraineur = ;
@@ -47,6 +47,19 @@ void loop() {
   
   if (rfid.available()) {
     car = rfid.read();
+
+
+    if (car == arbitre) {
+      
+    }
+    else if (car == entraineur) {
+      
+    }
+    else {
+      
+    }
+
+    
     Serial.print(car);
     Serial.print("(");
     Serial.print(car, HEX);
