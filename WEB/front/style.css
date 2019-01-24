@@ -11,6 +11,17 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  font-size: 1.5vw;
+  font-family: "montserratregular";
+  text-align: center;
+  color: #fff;
+}
+
+h2 span {
+  font-family: 'montserratmedium';
+}
+
 .form {
   display: flex;
   align-items: center;
