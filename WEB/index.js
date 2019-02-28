@@ -1,3 +1,4 @@
+
 const express = require('express')
 const bodyParser = require('body-parser')
 const term = require('child_process').exec
@@ -22,10 +23,11 @@ app.get('/', (req, res) => {
 
 
 app.post('/text', (req, res) => {
-  let text = req.body.text
+  var text = req.body.text
+  text += '\n'
   console.log(text)
 
-  // term('')
+  term('sudo ./message ttyUSB0 9600 $ ' + text + '')
 })
 
 
