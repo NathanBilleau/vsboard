@@ -22,6 +22,7 @@ v4.2.1
 ``` bash
 pi@raspberrypi:~ $ git clone https://github.com/NathanBilleau/vsboard
 pi@raspberrypi:~ $ cd vsboard-master/WEB/
+pi@raspberrypi:~/vsboard-master/WEB $ npm i
 pi@raspberrypi:~/vsboard-master/WEB $ node index.js
 http://localhost:5555/
 ```
