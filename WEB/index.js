@@ -27,7 +27,7 @@ app.post('/text', (req, res) => {
   text += '\n'
   console.log(text)
 
-  term('sudo ./message ttyUSB0 9600 $ ' + text + '')
+  term('sudo ../../prog/message ttyUSB0 9600 $ ' + text + '')
 })
 
 
